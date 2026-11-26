@@ -4,7 +4,7 @@
 ## путь служит запасным вариантом. 
 class_name PathNotesPlugin extends EditorPlugin
 
-const NOTES_PATH: String = 'res://addons/path_notes/notes.json' ## Файл с сохранёнными подсказками
+const NOTES_PATH: String = 'res://addons/notes/notes.json' ## Файл с сохранёнными подсказками
 const NOTE_MARKER: String = '📝 ' ## Префикс, по которому узнаём наши тултипы
 
 var entries: Array[Dictionary] = [] ## Все подсказки: словари с ключами uid, path и text

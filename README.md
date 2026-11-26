@@ -4,6 +4,8 @@ A Godot Editor plugin that lets you attach short text notes to files and folders
 
 Notes are shown in the editor tooltips, so you can keep reminders, explanations, TODOs, and other project-specific information close to the resources they describe.
 
+The plugin interface supports **English and Russian**. It follows the Godot editor locale: Russian is used when the editor locale starts with `ru`; English is used for all other locales.
+
 ## Features
 
 - Add or edit a note from the FileSystem dock's right-click context menu.
@@ -48,7 +50,7 @@ Notes are shown in the editor tooltips, so you can keep reminders, explanations,
 
 1. Open the **FileSystem** dock in the Godot editor.
 2. Right-click a file or folder.
-3. Select **Edit Note…** (displayed as **Изменить подсказку…** in the current plugin UI).
+3. Select **Edit Note…** (or **Изменить подсказку…** when the editor is set to Russian).
 4. Enter your note and confirm the dialog.
 5. Hover over the resource or folder to see the note in its tooltip.
 

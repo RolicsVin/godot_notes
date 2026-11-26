@@ -70,7 +70,7 @@ The JSON file is project-local. Include it in version control if you want to sha
 
 ## Troubleshooting
 
-- **The plugin does not appear in the Plugins list:** Check that `plugin.cfg` is inside `res://addons/path_notes/` and that the directory is named `path_notes`.
+- **The plugin does not appear in the Plugins list:** Check that `plugin.cfg` is inside `res://addons/notes/` and that the directory is named `notes`.
 - **Notes are not visible:** Make sure the plugin is enabled, then move the pointer over the file or folder in the FileSystem dock.
 - **A note no longer matches a file:** The plugin resolves file notes by UID first. If a resource was replaced with a different resource, its UID may also have changed.
 

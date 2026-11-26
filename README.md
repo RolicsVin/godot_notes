@@ -37,7 +37,7 @@ Notes are shown in the editor tooltips, so you can keep reminders, explanations,
    To clone directly into the expected folder:
 
    ```bash
-   git clone https://github.com/RolicsVin/godot_notes.git addons/path_notes
+   git clone https://github.com/RolicsVin/godot_notes.git addons/notes
    ```
 
 3. Open the project in Godot.

@@ -15,7 +15,7 @@ Notes are shown in the editor tooltips, so you can keep reminders, explanations,
 
 ## Requirements
 
-- Godot Engine **4.x**.
+- Godot Engine **4.4** or higher. (Recommended 4.7.2)
 - This is an **EditorPlugin**. It runs inside the Godot editor and does not add runtime functionality to exported games.
 
 ## Installation
@@ -26,13 +26,13 @@ Notes are shown in the editor tooltips, so you can keep reminders, explanations,
    ```text
    your_project/
    ├── addons/
-   │   └── path_notes/
+   │   └── notes/
    │       ├── plugin.cfg
    │       └── plugin.gd
    └── project.godot
    ```
 
-   The folder name `path_notes` is important because the plugin stores its data at `res://addons/path_notes/notes.json`.
+   The folder name `notes` is important because the plugin stores its data at `res://addons/notes/notes.json`.
 
    To clone directly into the expected folder:
 
@@ -59,7 +59,7 @@ To change a note, repeat the same steps and edit the existing text. Clear the te
 Notes are saved in:
 
 ```text
-res://addons/path_notes/notes.json
+res://addons/notes/notes.json
 ```
 
 Each entry stores the note text, the resource UID (when available), and the last known path.

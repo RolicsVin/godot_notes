@@ -1,4 +1,4 @@
-# Path Notes
+# Notes
 
 A Godot Editor plugin that lets you attach short text notes to files and folders in the **FileSystem** dock.
 
